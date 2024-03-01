@@ -20,7 +20,7 @@
     display: inline-block;
     padding: 10px;
   }
-  /*Couleur pour les mots (À PROPOS, CONTACT, FAITS ET STATISTIQUES...)*/
+  /*Couleur pour les mots (Souliers, chandail...)*/
   ul li a {
     color: white;
     letter-spacing: 0.1rem;
@@ -36,7 +36,7 @@
     left: 100px;
     font-size: 20px;
   }
-  /*Le titre de la page (Toronto Raptors) */
+  /*Le titre de chaque page */
   h1 {
     font-size: 45px;
     margin-bottom: 40px;
@@ -46,7 +46,7 @@
   
   
   
-  /*Image du joueur de basket qui dunk */
+  /*parametre de la position des images*/
   .image {
     padding-top: 100px;
     width: 100px;
