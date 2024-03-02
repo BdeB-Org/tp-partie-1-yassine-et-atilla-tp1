@@ -1,0 +1,64 @@
+/*type d'écriture*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+  }
+  
+  /*header */
+  .header {
+    background-color: rgb(0, 184, 184);
+    height: 80px;
+    margin: none;
+  }
+  
+  /*barre de navigation*/
+  nav ul li {
+    line-height: 7px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+  }
+  /*les mots dans la barre de navigation*/
+  ul li a {
+    color: white;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+  }
+  
+  /*Les paragraphes de détails*/
+  .text-box {
+    margin-top: 130px;
+    max-width: 600px;
+    right: 20%;
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+  }
+  /*titre */
+  h1 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: rgb(220, 183, 20);
+    font-weight: 800;
+  }
+  
+  /*Images */
+  .image {
+    padding-top: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    right: 30%;
+  }
+  
+  /*Le logo */
+  .logo img {
+    margin-left: 200px;
+  }
+  /* souligne les mots de la barre de navigation quand on met la souris dessus */
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
